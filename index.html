@@ -8,21 +8,30 @@
     <title>Document</title>
 </head>
 <body>
-    <p>1: piedra
+    <!--     <p>1: piedra
         2: papel
-        3: tijera</p>
+        3: tijera</p> -->
+    <div id="cuerpo">
     <div id="juego">
-        <p class="result1"></p>
-        <p class="result2"></p>
-        <button onclick="play()">Play</button>
+        <div id="display">
+            <p class="result1">Kevin:</p>
+            <p class="result2">PC:</p>
+        </div>
+        
+        <div id="boton">
+            <button onclick="play()">Play</button>
+        </div>
+        
     </div>
 
-    <div>
-        <p>Piedra</p>
+    <div id="resultado">
+        <!--<p>Piedra</p>
         <p>Papel</p>
-        <p>Tijera</p>
+        <p>Tijera</p> -->
+        
         <p class="ganaste"></p>
         <p></p>
+    </div>
     </div>
 </body>
 <script src="./js/index.js"></script>
