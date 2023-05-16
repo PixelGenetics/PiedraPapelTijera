@@ -119,9 +119,9 @@ function play() {
 }
 
 function mostrar(resultado, resultado2) {
-    miMano.innerText = `Kevin: ${resultado === 1 ? "Piedra" : resultado === 2 ? "Papel" : "Tijera"}`;
+    /*miMano.innerText = `Kevin: ${resultado === 1 ? "Piedra" : resultado === 2 ? "Papel" : "Tijera"}`;
     PC.innerText  = ` Pc: ${resultado2 === 1 ? "Piedra" : resultado === 2 ? "Papel" : "Tijera"} `;
-
+*/
     if (resultado === 1) {
         miMano.innerText = "Kevin: Piedra";
     }else if(resultado === 2){
