@@ -1,3 +1,45 @@
 *{
     background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+#cuerpo{
+    display: flex;
+    padding: 2rem 6rem;
+    flex-direction: column;
+    gap: 50px;
+}
+#juego{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    align-items: center;
+    gap: 50px;
+}
+#juego p{
+    border: 2px solid red;
+}
+
+#juego button{
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+    padding: 25px;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    gap: 0;
+    height: 200px;
+    align-items: center;
 }
